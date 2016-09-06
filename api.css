@@ -1,0 +1,109 @@
+body {
+	background-color:#E3E3E3;
+}
+#tblnalog {
+	display:none;
+}
+.invisible {
+	display:none;
+}
+.err {
+ 	color:red;
+    font-weight:bold;
+}
+.ok {
+ 	color:blue;
+    font-weight:bold;
+}
+#paystbl {
+	cursor: pointer;
+}
+#paystbl th {
+	background-color: #3e83c9;
+	color: #fff;
+	font:13px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding: 2px 11px;
+	text-align: left;
+}
+#paystbl .sel{
+	width: 60px;
+	text-align: center;
+}
+#paystbl .doc{
+	width: 100px;
+    text-align: left;
+}
+#paystbl .sum{
+	width: 100px;
+}
+#paystbl .dat{
+ 	width: 50px;
+}
+#paystbl .rem{
+ 	width: 150px;
+}
+#paystbl td {
+	padding: 3px 11px;
+	border-bottom: 1px solid #95bce2;
+	vertical-align: top;
+	font:12px Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+#paystbl tr.alt td {
+	background-color: #E9F0E3;
+}
+#paystbl tr.over td, #paystbl tr:hover td {
+	background-color: #bcd4ec;
+}
+#paystbl tr:nth-child(even) {
+	background-color: #E3E3E3;
+}
+#paystbl tr:nth-child(odd) {
+	background-color: #D1D1D1;
+}
+#paystbl input[type="checkbox"] {
+	cursor: pointer;
+}
+#loader {
+    display:none;
+    background: url(lp.gif) center no-repeat;
+    width:48px;
+    height:48px;
+    position: fixed;
+	left: 100px;
+	top: 100px;
+}
+
+.tooltip {
+	border-bottom: 1px dotted #000000; color: #000000; outline: none;
+	cursor: help; text-decoration: none;
+	position: relative;
+}
+.tooltip span {
+	margin-left: -999em;
+	position: absolute;
+}
+.tooltip:hover span {
+	border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+	font-family: Calibri, Tahoma, Geneva, sans-serif;
+	position: absolute; left: 1em; top: 2em; z-index: 99;
+	margin-left: 0; width: 250px;
+}
+.tooltip:hover img {
+	border: 0; margin: -10px 0 0 -55px;
+	float: left; position: absolute;
+}
+.tooltip:hover em {
+	font-family: Candara, Tahoma, Geneva, sans-serif; font-size: 1.2em; font-weight: bold;
+	display: block; padding: 0.2em 0 0.6em 0;
+}
+
+/*.classic { padding: 0.8em 1em; }
+.custom { padding: 0.5em 0.8em 0.8em 2em; }*/
+.custom { padding: 0px 10px 10px 10px; }
+* html a:hover { background: transparent; }
+/*.classic {background: #FFFFAA; border: 1px solid #FFAD33; }
+.critical { background: #FFCCAA; border: 1px solid #FF3334;	}
+.help { background: #9FDAEE; border: 1px solid #2BB0D7;	}*/
+.info { background: #9FDAEE; border: 1px solid #2BB0D7;	}
+/*.warning { background: #FFFFAA; border: 1px solid #FFAD33; }*/
